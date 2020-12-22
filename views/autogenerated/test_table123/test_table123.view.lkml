@@ -3,7 +3,7 @@ include: "/**/*.model.lkml"
  explore: test_table123 { 
    
   join: users { 
-    sql_on: ${test_table123.user_id} = ${users.user_id} ;;
+    sql_on: ${test_table123.user_id} = ${users.id} ;;
     relationship: many_to_one
     type: left_outer } }
 
