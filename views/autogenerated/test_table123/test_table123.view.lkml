@@ -1,4 +1,4 @@
-
+include: "*/**/*.model.lkml"
 
  explore: test_table123 { 
    
